@@ -1,0 +1,188 @@
+body {
+    background-color: gainsboro;
+    background-image: url("../images/portrait_ShaniEdri.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-position: right bottom;
+    background-position-x: 80%;
+    background-position-y: -70%;
+    background-size: 500px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+    #container h2 {
+        font-weight: bold;
+        text-decoration-line: line-through;
+    }
+
+#container1 h1 {
+    font-size: 34px;
+}
+
+#container1 h2 {
+    font-size: 30px;
+}
+
+#container1 {
+    width: 320px;
+    height: 150px;
+    text-align: right;
+    background-color: whitesmoke;
+    padding-right: 50px;
+    color: dimgrey;
+    padding-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 350px;
+    border: none;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-left: 30px;
+    border-radius: 14px 14px 0px 14px;
+}
+
+    #container1:hover {
+        background-image: url("../images/Untitled-1.png");
+        background-position-x: center;
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 300px;
+        text-align: right;
+        background-color: gray;
+        padding-right: 50px;
+        color: white;
+        padding-left: 50px;
+        margin-top: 100px;
+        margin-left: 30px;
+        padding-bottom: 10px;
+        -webkit-border-radius: 14px 14px 0px 14px;
+        border-radius: 14px 14px 0px 14px;
+    }
+
+    #container1, #container2 {margin-right:160px;}
+
+
+#container2 h2 {
+    font-size: 30px;
+}
+
+#container2 {
+    width: 320px;
+    height: 390px;
+    background-color: whitesmoke;
+    margin-bottom: 120px;
+    margin-top: 80px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    -webkit-border-radius: 14px 0px 14px 14px;
+    border: none;
+    margin-left: 30px;
+    border-radius: 14px 0px 14px 14px;
+}
+
+    #container2:hover {
+        width: 320px;
+        height: 390px;
+        background-color: lightgray;
+        color: white;
+        text-align: right;
+        padding-bottom: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 5px;
+        -webkit-border-radius: 14px 0px 14px 14px;
+        margin-left: 30px;
+        border-radius: 14px 0px 14px 14px;
+    }
+
+    #container2 h2 {
+        font-size: 30px;
+        color: dimgrey;
+        padding-top: 25px;
+    }
+
+    #container2 p {
+        font-size: 26px;
+        color: dimgrey;
+        padding-top: 15px;
+    }
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    display:inline-block;
+    float:left;
+}
+
+nav ul li a{
+    display:block;
+    background-color: whitesmoke;
+    color: dimgrey;
+    width: 80px;
+    height: 40px;
+    text-align:center;
+    text-decoration:none; font-size:18px;
+    border: 1px solid lightgray;
+    -webkit-border-radius: 0px 0px 24px 24px;
+    padding-top:7px;font-weight:bold;
+}
+
+nav ul li a:hover{
+    display:block;
+    background-color: lightblue;
+    color: dimgrey;
+    width: 80px;
+    height: 35px;
+    text-align:center;
+    text-decoration:none;
+    border: 1px solid lightgray;
+    -webkit-border-radius: 0px 0px 24px 24px;
+    padding-top:10px;
+}
+
+nav ul li a .selected{
+    display:block;
+    background-color: lightblue;
+    color: dimgrey;
+    width: 80px;
+    height: 40px;
+    text-align:center;
+    text-decoration:none;
+    border: 1px solid lightgray;
+    -webkit-border-radius: 0px 0px 24px 24px;
+    padding-top:10px;
+}
+nav {
+    margin-left: 35px;
+}
+
+nav ul li .selected {
+    background-color: lightblue;
+    width:80px;
+    height:40px;
+     display:inline-block;
+    border: 1px solid lightgray;
+    -webkit-border-radius: 0px 0px 24px 24px;
+}
+
+#container2 h3 {
+    font-size: 30px;
+    color: gray;
+    padding-bottom:25px;padding-top:20px;
+}
+
+footer {
+    padding-left: 150px;
+    margin-left: 80px;
+
